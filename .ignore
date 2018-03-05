@@ -1,11 +1,15 @@
-*.class
-*/target/
+# Package Files #
+*.jar
+*.war
+*.ear
 
-/.settings
-*/.settings/
-.classpath
-*/.classpath
+# ignore Maven generated target folders
+target
+
+# ignore eclipse files
 .project
-*/.project
-*/.DS_Store
+.classpath
+.settings
+.metadata
+
 .DS_Store
