@@ -9,6 +9,7 @@
 	</parent>
 	
 	<artifactId>springboot-test-admin</artifactId>
+	<name>springboot-test-admin</name>
 	<properties>
 		<de.codecentric.version>1.5.0</de.codecentric.version>
 	</properties>

@@ -7,17 +7,17 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>parent</name>
+	<name>springboot-test</name>
 	<url>http://maven.apache.org</url>
 
 	<modules>
-		<module>config.server</module>
-		<module>erueka</module>
-		<module>zuul</module>
-		<module>consumer</module>
-		<module>provider</module>
-		<module>sleuth.zipkin</module>
-		<module>hystrix.dashboard</module>
+		<module>springboot-test-config-server</module>
+		<module>springboot-test-erueka</module>
+		<module>springboot-test-zuul</module>
+		<module>springboot-test-consumer</module>
+		<module>springboot-test-provider</module>
+		<module>springboot-test-sleuth-zipkin</module>
+		<module>springboot-test-hystrix-dashboard</module>
 		<module>springboot-test-admin</module>
 	</modules>
 

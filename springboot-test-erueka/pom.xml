@@ -3,10 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>allen</groupId>
-	<artifactId>erueka</artifactId>
+	<artifactId>springboot-test-erueka</artifactId>
 	<packaging>jar</packaging>
 
-	<name>erueka</name>
+	<name>springboot-test-erueka</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
