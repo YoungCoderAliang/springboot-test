@@ -16,7 +16,7 @@
 
 	<parent>
 		<groupId>testTech</groupId>
-		<artifactId>parent</artifactId>
+		<artifactId>springboot-test</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
