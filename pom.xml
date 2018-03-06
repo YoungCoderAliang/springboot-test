@@ -17,6 +17,7 @@
 		<module>consumer</module>
 		<module>provider</module>
 		<module>sleuth.zipkin</module>
+		<module>hystrix.dashboard</module>
 	</modules>
 
 

@@ -10,11 +10,11 @@ import allen.consumer.rservice.TestService;
 
 @RestController
 public class TestController {
-    @Resource
-    private TestService testService;
+	@Resource
+	private TestService testService;
 
-    @RequestMapping(value = "t", method = RequestMethod.GET)
-    public String t() {
-	return testService.test();
-    }
+	@RequestMapping(value = "t", method = RequestMethod.GET)
+	public String t() {
+		return testService.test();
+	}
 }
