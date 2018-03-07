@@ -1,23 +1,23 @@
 package allen.provider;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.cloud.config.client.ConfigClientProperties;
+import org.springframework.context.ConfigurableApplicationContext;
 
 /**
  * Hello world!
  *
  */
-@Configuration
-@EnableAutoConfiguration
-@ComponentScan
+@SpringBootApplication
 @EnableDiscoveryClient
 @EnableCircuitBreaker
 public class Provider {
 	public static void main(String[] args) {
-		SpringApplication.run(Provider.class, args);
+		ConfigurableApplicationContext context = SpringApplication.run(Provider.class, args);
+		ConfigClientProperties p = (ConfigClientProperties) context.getBean(ConfigClientProperties.class);
+		System.out.println(p.toString());
 	}
 }
