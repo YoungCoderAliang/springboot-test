@@ -3,10 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>allen</groupId>
-	<artifactId>springboot-test-sleuth-zipkin</artifactId>
+	<artifactId>springboot-test-sleuth-zipkin-http-vm-server</artifactId>
 	<packaging>jar</packaging>
 
-	<name>springboot-test-sleuth-zipkin</name>
+	<name>springboot-test-sleuth-zipkin-http-vm-server</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
