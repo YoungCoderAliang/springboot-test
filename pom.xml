@@ -17,6 +17,8 @@
 		<module>springboot-test-consumer</module>
 		<module>springboot-test-provider</module>
 		<module>springboot-test-sleuth-zipkin-http-vm-server</module>
+		<module>springboot-test-sleuth-zipkin-rabbitmq-mysql-server</module>
+		<module>springboot-test-sleuth-zipkin-rabbitmq-elasticsearch-server</module>
 		<module>springboot-test-hystrix-dashboard</module>
 		<module>springboot-test-admin</module>
 	</modules>

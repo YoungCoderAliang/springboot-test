@@ -13,5 +13,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 public class ConfigServer {
     public static void main(String[] args) {
 		SpringApplication.run(ConfigServer.class, args);
+		// rabbitmq on mac
+		// /usr/local/Cellar/rabbitmq/3.7.3/sbin/rabbitmq-server
     }
 }
