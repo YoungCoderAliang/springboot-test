@@ -1,0 +1,30 @@
+server:
+  port: 80
+  tomcat:
+    max-threads: 400
+logging:
+  level:
+    root: INFO
+  file:
+    zuul.log
+  path:
+    /home/dajialehttp
+
+spring:
+  application:
+    name: gameserver-router-zuul
+eureka:
+  client:
+    register-with-eureka: false
+zuul:
+  ignoredPatterns: /rest/game/getgames/v1,/rest/openroom/getgames/v1,/rest/manage/getgames/v1,/timechecker/get,/timechecker/reset
+  routes:
+    dis-rule:
+      path: /**
+      serviceId: nouse
+  host:
+    maxTotalConnections: 400
+    maxPerRouteConnections: 400
+
+
+    
