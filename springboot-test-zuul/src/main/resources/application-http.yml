@@ -13,6 +13,10 @@ logging:
 spring:
   application:
     name: gameserver-router-zuul
+  http:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
 eureka:
   client:
     register-with-eureka: false
